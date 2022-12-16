@@ -1,16 +1,12 @@
-### Hi there 👋
-
-<!--
-**MarissaUdele/MarissaUdele** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+"const nav = document.createElement('nav');
+const links = [  { text: 'Home', url: '/home' },  { text: 'About', url: '/about' },  { text: 'Contact', url: '/contact' }];
+links.forEach(link => {
+  const a = document.createElement('a');
+  a.innerHTML = link.text;
+  a.href = link.url;
+  nav.appendChild(a);
+  nav.innerHTML += ' | ';
+});
+document.body.appendChild(nav);
+"
+![image](https://user-images.githubusercontent.com/120653581/208056042-aadbe58f-81fe-4bb0-a3ad-aa9172324cbb.png)
